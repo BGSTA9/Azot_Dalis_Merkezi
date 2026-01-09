@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;600;700&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Deep Navy - Trust & Depth */
+    --background: 213 100% 12%;
+    --foreground: 0 0% 100%;
+
+    /* Card surfaces - slightly lighter navy */
+    --card: 213 80% 15%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 213 80% 15%;
+    --popover-foreground: 0 0% 100%;
+
+    /* Bright Cyan - Energy & Tropical Water */
+    --primary: 187 100% 50%;
+    --primary-foreground: 213 100% 12%;
+
+    /* Secondary - Muted cyan */
+    --secondary: 213 60% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted surfaces */
+    --muted: 213 50% 20%;
+    --muted-foreground: 210 20% 70%;
+
+    /* Safety Orange - Action/Highlights */
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 213 40% 25%;
+    --input: 213 40% 25%;
+    --ring: 187 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom dive center colors */
+    --cyan-glow: 187 100% 50%;
+    --deep-navy: 213 100% 12%;
+    --ocean-blue: 213 80% 20%;
+    --coral-orange: 24 100% 50%;
+    --soft-charcoal: 0 0% 20%;
+    --water-gradient: linear-gradient(180deg, hsl(213 100% 12%) 0%, hsl(213 80% 8%) 100%);
+    --hero-overlay: linear-gradient(180deg, hsla(213, 100%, 12%, 0.3) 0%, hsla(213, 100%, 12%, 0.9) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(213 80% 18%) 0%, hsl(213 80% 12%) 100%);
+    --glow-cyan: 0 0 40px hsla(187, 100%, 50%, 0.3);
+    --glow-orange: 0 0 30px hsla(24, 100%, 50%, 0.4);
+
+    /* Sidebar */
+    --sidebar-background: 213 100% 10%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 187 100% 50%;
+    --sidebar-primary-foreground: 213 100% 12%;
+    --sidebar-accent: 213 60% 25%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 213 40% 25%;
+    --sidebar-ring: 187 100% 50%;
+  }
+
+  .light {
+    --background: 0 0% 98%;
+    --foreground: 213 100% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 213 100% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 100% 12%;
+
+    --primary: 213 100% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 213 100% 12%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 213 40% 40%;
+
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 213 20% 85%;
+    --input: 213 20% 85%;
+    --ring: 213 100% 20%;
+
+    --deep-navy: 213 100% 12%;
+    --ocean-blue: 213 80% 95%;
+    --hero-overlay: linear-gradient(180deg, hsla(213, 100%, 12%, 0.4) 0%, hsla(213, 100%, 12%, 0.85) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-bold tracking-tight;
+  }
+
+  .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-subheading {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .font-accent {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(187 100% 70%) 100%);
+  }
+
+  .glass-card {
+    @apply backdrop-blur-md border border-white/10;
+    background: hsla(213, 80%, 15%, 0.8);
+  }
+
+  .glow-cyan {
+    box-shadow: var(--glow-cyan);
+  }
+
+  .glow-orange {
+    box-shadow: var(--glow-orange);
+  }
+
+  .water-shimmer {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      hsla(187, 100%, 50%, 0.1) 50%,
+      transparent 100%
+    );
+    animation: shimmer 3s ease-in-out infinite;
+  }
+
+  .bubble {
+    @apply absolute rounded-full bg-white/10;
+    animation: bubble-rise 8s ease-in-out infinite;
+  }
+
+  .dive-card {
+    @apply relative overflow-hidden rounded-xl transition-all duration-500;
+    background: var(--card-gradient);
+  }
+
+  .dive-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--glow-cyan);
+  }
+
+  .hero-section {
+    background: var(--hero-overlay);
+  }
+
+  .nav-link {
+    @apply relative font-subheading font-semibold text-sm uppercase tracking-wider transition-colors duration-300;
+  }
+
+  .nav-link::after {
+    @apply absolute bottom-0 left-0 h-0.5 w-0 bg-primary transition-all duration-300;
+    content: '';
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes shimmer {
+  0%, 100% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes bubble-rise {
+  0% {
+    transform: translateY(100vh) scale(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px) scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
