@@ -129,7 +129,7 @@ netlify deploy --prod --dir=dist
 
 ## 📝 License
 
-This project is proprietary software for AZOT Dive Center.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
