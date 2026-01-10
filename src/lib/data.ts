@@ -405,9 +405,9 @@ export const contactInfo = {
   phone: '+90 252 XXX XX XX',
   whatsapp: '+90 5XX XXX XX XX',
   email: 'dive@azotdiving.com',
-  address: 'Bodrum Marina, Muğla, Turkey',
-  addressTr: 'Bodrum Marina, Muğla, Türkiye',
-  coordinates: { lat: 37.0344, lng: 27.4305 },
+  address: 'Azot Dalış Cankurtaran Eğitim Merkezi, Üstünel Apartmanı, Güzelyalı, Güzelyalı Yalı, 5. Sk. No 3, 16950 Mudanya/Bursa',
+  addressTr: 'Azot Dalış Cankurtaran Eğitim Merkezi, Üstünel Apartmanı, Güzelyalı, Güzelyalı Yalı, 5. Sk. No 3, 16950 Mudanya/Bursa',
+  coordinates: { lat: 40.3767, lng: 28.8833 },
   hours: {
     weekdays: '08:00 - 18:00',
     weekends: '07:00 - 19:00'

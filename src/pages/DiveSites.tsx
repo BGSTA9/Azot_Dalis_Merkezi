@@ -83,10 +83,10 @@ const DiveSites = () => {
                       </div>
                       <div className="absolute top-4 right-4">
                         <span className={`px-4 py-2 rounded-full text-sm font-subheading font-semibold ${site.difficulty === 'Beginner'
-                            ? 'bg-green-500/20 text-green-400 backdrop-blur-sm'
-                            : site.difficulty === 'Intermediate'
-                              ? 'bg-yellow-500/20 text-yellow-400 backdrop-blur-sm'
-                              : 'bg-red-500/20 text-red-400 backdrop-blur-sm'
+                          ? 'bg-green-500/20 text-green-400 backdrop-blur-sm'
+                          : site.difficulty === 'Intermediate'
+                            ? 'bg-yellow-500/20 text-yellow-400 backdrop-blur-sm'
+                            : 'bg-red-500/20 text-red-400 backdrop-blur-sm'
                           }`}>
                           {getDifficultyTranslation(site.difficulty)}
                         </span>
@@ -175,7 +175,7 @@ const DiveSites = () => {
             className="mt-12 aspect-[16/9] rounded-2xl overflow-hidden border border-border"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50247.36456832876!2d27.369485!3d37.034444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14be6c1edff1c0d5%3A0x2cf6cf9c4f8c7d5!2sBodrum%2C%20Turkey!5e0!3m2!1sen!2sus!4v1640000000000!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3046.5!2d28.8819!3d40.3753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3f7c3c8a7f7d%3A0x8b8b8b8b8b8b8b8b!2sG%C3%BCzelyal%C4%B1%2C%2016950%20Mudanya%2FBursa%2C%20Turkey!5e0!3m2!1sen!2str!4v1640000000000!5m2!1sen!2str"
               width="100%"
               height="100%"
               style={{ border: 0 }}
