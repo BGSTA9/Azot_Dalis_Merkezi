@@ -135,6 +135,4 @@ This project is proprietary software for AZOT Dive Center.
 
 <p align="center">
   Built with ❤️ for underwater adventures
-  Created by <a href="https://github.com/BGSTA9">BGSTA9</a>
-  Süheyl SANATİ
 </p>
