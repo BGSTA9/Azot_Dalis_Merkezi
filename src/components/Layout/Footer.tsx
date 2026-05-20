@@ -96,7 +96,6 @@ export function Footer() {
               <li>CMAS/TSSF 5-Star Dive Center</li>
               <li>SSI Instructor Training Center</li>
               <li>RAID Dive Center</li>
-              <li>DAN Partner Facility</li>
             </ul>
             <div className="mt-6 flex items-center gap-4">
               <div className="w-16 h-16 bg-secondary rounded-lg flex items-center justify-center">

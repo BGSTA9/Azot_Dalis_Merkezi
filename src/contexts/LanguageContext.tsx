@@ -241,7 +241,7 @@ const translations: Record<Language, Translations> = {
     heroTitle1: 'Sualtı',
     heroTitle2: 'Harikalarını',
     heroTitle3: 'Keşfedin',
-    heroDescription: 'İlk nefesten profesyonel ustalığa—güvenebileceğiniz uzmanlarla maceraya dalın. Ege Denizi\'nin büyüsünü yaşayın.',
+    heroDescription: 'İlk nefesten profesyonel ustalığa—güvenebileceğiniz uzmanlarla maceraya dalın. Marmara Denizi\'nin büyüsünü yaşayın.',
     exploreCourses: 'Kursları Keşfet',
     scrollToExplore: 'Keşfetmek için kaydır',
 
@@ -265,7 +265,7 @@ const translations: Record<Language, Translations> = {
 
     // Featured Dive Sites
     featuredSitesTitle: 'Öne Çıkan Dalış Noktaları',
-    featuredSitesDescription: 'Ege\'nin en iyi sualtı lokasyonlarını keşfedin.',
+    featuredSitesDescription: 'Marmara\'nin en iyi sualtı lokasyonlarını keşfedin.',
     viewAllSites: 'Tüm Noktaları Gör',
     depth: 'Derinlik',
 
@@ -292,7 +292,7 @@ const translations: Record<Language, Translations> = {
     allRightsReserved: 'Tüm hakları saklıdır.',
     privacyPolicy: 'Gizlilik Politikası',
     termsOfService: 'Kullanım Şartları',
-    footerDescription: 'Mavi Evimizin Derinliklerini Keşfetmek. Ege\'nin kalbinde sualtı maceraları ve deniz korumanız için kapınız.',
+    footerDescription: 'Mavi Evimizin Derinliklerini Keşfetmek. Marmara\'nin kalbinde sualtı maceraları ve deniz korumanız için kapınız.',
     scubaCoursesLink: 'Tüplü Dalış Kursları',
     diveSitesLink: 'Dalış Noktaları',
     ourTeamLink: 'Ekibimiz',
@@ -357,7 +357,7 @@ const translations: Record<Language, Translations> = {
     // About Page
     ourStory: 'Hikayemiz',
     aboutHeroTitle: 'Mavi Evimizin Derinliklerini Keşfetmek',
-    aboutDescription: 'Ege\'nin kalbinde kurulan AZOT Dalış Merkezi, 15 yılı aşkın süredir bireyleri güvenli, yetkin ve tutkulu sualtı elçilerine dönüştürüyor.',
+    aboutDescription: 'Marmara\'nin kalbinde kurulan AZOT Dalış Merkezi, 12 yılı aşkın süredir bireyleri güvenli, yetkin ve tutkulu sualtı elçilerine dönüştürüyor.',
     ourMission: 'Misyonumuz',
     missionDescription: 'Her bireyi güvenli bir şekilde sualtı dünyasında ustalaştırmak için güçlendirmek.',
     ourValues: 'Değerlerimiz',
@@ -409,12 +409,12 @@ const translations: Record<Language, Translations> = {
 
     // Dive Sites Page
     discoverParadise: 'Sualtı Cennetimizi Keşfedin',
-    diveSitesPageDesc: 'Canlı mercan bahçelerinden gizemli batıklara kadar, Ege Denizi\'nin çeşitli sualtı manzaralarını keşfedin.',
+    diveSitesPageDesc: 'Canlı mercan bahçelerinden gizemli batıklara kadar, Marmara Denizi\'nin çeşitli sualtı manzaralarını keşfedin.',
     highlights: 'Öne Çıkanlar',
     marineLife: 'Deniz Yaşamı',
     level: 'Seviye',
     locationSection: 'Konum',
-    findUsAegean: 'Ege\'nin Kalbinde Bizi Bulun',
+    findUsAegean: 'Marmara\'nin Kalbinde Bizi Bulun',
     findUsAegeanDesc: 'Dalış noktalarımız, Türkiye\'nin en iyi dalışlarına kolay erişim sunan muhteşem Marmara kıyılarında yer almaktadır.',
 
     // Login Page
@@ -512,7 +512,7 @@ const translations: Record<Language, Translations> = {
     allRightsReserved: 'All rights reserved.',
     privacyPolicy: 'Privacy Policy',
     termsOfService: 'Terms of Service',
-    footerDescription: 'Exploring The Depth Of Our Blue Home. Your gateway to underwater adventures and marine conservation in the heart of the Aegean.',
+    footerDescription: 'Exploring The Depth Of Our Blue Home. Your gateway to underwater adventures and marine conservation in the heart of the Marmara.',
     scubaCoursesLink: 'Scuba Courses',
     diveSitesLink: 'Dive Sites',
     ourTeamLink: 'Our Team',
@@ -577,7 +577,7 @@ const translations: Record<Language, Translations> = {
     // About Page
     ourStory: 'Our Story',
     aboutHeroTitle: 'Exploring The Depth Of Our Blue Home',
-    aboutDescription: 'Founded in the heart of the Aegean, AZOT Diving Center has been transforming individuals into safe, competent, and passionate underwater ambassadors for over 15 years.',
+    aboutDescription: 'Founded in the heart of the Aegean, AZOT Diving Center has been transforming individuals into safe, competent, and passionate underwater ambassadors for over 12 years.',
     ourMission: 'Our Mission',
     missionDescription: 'To empower every individual to safely master the underwater world.',
     ourValues: 'Our Values',
@@ -629,7 +629,7 @@ const translations: Record<Language, Translations> = {
 
     // Dive Sites Page
     discoverParadise: 'Discover Our Underwater Paradise',
-    diveSitesPageDesc: 'From vibrant coral gardens to mysterious shipwrecks, explore the diverse underwater landscapes of the Aegean Sea.',
+    diveSitesPageDesc: 'From vibrant coral gardens to mysterious shipwrecks, explore the diverse underwater landscapes of the Marmara Sea.',
     highlights: 'Highlights',
     marineLife: 'Marine Life',
     level: 'Level',
