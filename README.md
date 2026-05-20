@@ -79,11 +79,3 @@ netlify deploy --prod --dir=dist
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  Built with ❤️ for underwater adventures
-  Created by <a href="https://github.com/BGSTA9">BGSTA9</a>
-  Süheyl SANATİ
-</p>
